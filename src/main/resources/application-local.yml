@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: test
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/crowd_sync?characterEncoding=utf8
+  jpa:
+    hibernate:
+      ddl-auto: validate
